@@ -3,11 +3,21 @@
     background-color: rgb(200, 0, 0);
     color: white;
     border: none;
-    height: 36px;
-    width: 105px;
+   padding-left: 16px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 16px;
     border-radius: 4px;
     cursor: pointer;
     margin-right: 10px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+  }
+  .subscribe-btn:hover {
+    opacity: 0.8;
+  }
+  .subscribe-btn:active {
+    opacity: 0.4;
   }
   .join-btn {
     background-color: white;
@@ -16,23 +26,147 @@
     border-style: solid;
     border-radius: 4px;
     border-width: 1px;
-    width: 80px;
-    height: 36px;
+    padding-left: 16px;
+   padding-top: 9px;
+   padding-bottom: 9px;
+   padding-right: 16px;
     cursor: pointer;
     margin-right: 10px;
+    transition: background-color 0.15s, color 0.15s;
+    vertical-align: top;
+  }
+  .join-btn:hover {
+    background-color: rgb(32, 200, 241);
+    color: white;
+  }
+  .join-btn:active {
+    opacity: 0.7;
   }
   .tweet-btn {
     color: white;
     background-color: rgb(104, 202, 247);
     border: none;
-    height: 36px;
-    width: 80px;
+    padding-left: 16px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 16px;
     border-radius: 18px;
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
     margin-right: 10px;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
   }
+  .tweet-btn:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.16);
+  }
+.uber-btn{
+  padding-left: 16px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 16px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.uber-btn:hover{
+  opacity: 0.8;
+}
+.amazon-btn{
+  height: 36px;
+  width: 200px;
+  background-color: rgb(247, 217, 51);
+  color: black;
+border: none;
+border-radius: 18px;
+cursor: pointer;
+}
+.amazon-btn:hover{
+  background-color: rgb(218, 205, 24);
+}
+.git-btn{
+  padding-left: 16px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 16px;
+  color: white;
+  background-color: rgb(49, 156, 49);
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+.git-btn:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.16);
+}
+.bootstrap-btn1{
+  height: 36px;
+  width: 120px;
+  border: none;
+  color: white;
+  background-color: rgb(131, 40, 167);
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+transition: background-color 0.15s;
+cursor: pointer;
+}
+.bootstrap-btn1:hover{
+  background-color: purple;
+}
+.bootstrap-btn2{
+  height: 36px;
+  width: 120px;
+  border-color: rgb(131, 40, 167) ;
+  border-radius: 4px;
+  border-width: 1px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: white;
+  color: rgb(131, 40, 167);
+  cursor: pointer;
+  transition: background-color 0.15s,color 0.15s;
+}
+.bootstrap-btn2:hover{
+  background-color: rgb(131, 40, 167) ;
+  color: white;
+}
+.linkedin-btn1{
+  height: 36px;
+  width: 250px;
+  border: none;
+  background-color: rgb(69, 69, 189);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+cursor: pointer;
+border-radius: 18px;
+transition: background-color 0.15s;
+}
+.linkedin-btn1:hover{
+  background-color: rgb(35, 4, 175);
+}
+.linkedin-btn2{
+  height: 36px;
+  width: 100px;
+  background-color: white;
+  border-color: blue;
+  border-width: 1px;
+  border-radius: 18px;
+  font-size: 16px;
+  font-weight: bold;
+  color: blue;
+  transition: border-width 0.15s,background-color 0.15s ;
+  cursor: pointer;
+}
+.linkedin-btn2:hover{
+  border-width: 3px;
+ background-color: rgb(168, 197, 236)
+}
 </style>
 
 <button class="subscribe-btn">SUBSCRIBE</button>
@@ -40,3 +174,12 @@
 <button class="join-btn">JOIN</button>
 
 <button class="tweet-btn">Tweet</button>
+<br></br>
+<button class="uber-btn">Request now</button>
+<button class="amazon-btn">Add to Cart</button>
+<button class="git-btn">Sign up</button>
+<br></br>
+<button class="bootstrap-btn1">Get started</button>
+<button class="bootstrap-btn2">Download</button>
+<button class="linkedin-btn1">Apply on company website</button>
+<button class="linkedin-btn2">Save</button>
